@@ -1,0 +1,1 @@
+[outputModuleName]_[durationFrames]_[compName]\[compName]_[#####].[fileextension]
