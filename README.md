@@ -9,13 +9,7 @@ PROCESS:
 First it is necessary to install the TD_Encode presets to After Effects.
 You can finde the necessary files in the /Presets folder. When you use the presets and tell AE to render into that watchfolder, the TD_Encode component will be able to tell from the folder name, how long the file will be, which framerate to apply and to which codec it should be encoded. 
 
-<image>
-
 Secondly you need to start the TD_Encode Component and point it to a watchfolder.
 TD will recognise that new frames are coming in and encode them into a moviefile.
-The output movie file will be placed next to the folder with the temporary frames.
+The output movie file will be placed next to the folder with the temporary frames, which will be deleted by the time the movie has been finished.
 
-OPTIONS:
-Obviously you will need lots of free disk space to encode files that way. To help with this there is
-the "destructive mode", which can be turned on in the component. With this enabled, TD will encode packages of 20 frames, stop the encoding, delete the already encoded files and continue with the next batch of 20.
-This is obviously a bit dangerous and has to be used with care...
